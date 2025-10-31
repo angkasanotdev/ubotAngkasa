@@ -1,33 +1,46 @@
-
 ```
 apt update && apt upgrade -y
 ```
 ```
-git clone https://github.com/AlwaysBoyszz/UbotVerr
+apt install python3 python3-pip git unzip -y
 ```
 ```
-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
+wget https://github.com/angkasanotdev/ubotAngkasa/raw/main/ubotangkasa.zip
 ```
 ```
-cd Verr && screen -S Verr
+unzip ubotangkasa.zip
 ```
 ```
-bash installnode.sh && sudo apt install python3.12-venv
+cd ubotangkasa
 ```
 ```
-python3 -m venv Verr && source Verr/bin/activate
+pip install -r requirements.txt
 ```
 ```
-pip3 install -r requirements.txt
+cp sample.env .env
 ```
 ```
-cp sample.env .env && nano .env
+nano .env
 ```
 ```
-python3 -m PyroUbot
+CTRL + C
+```
+```
+bash start.sh
+```
+```
+apt install screen -y
+```
+```
+screen -S angkasaUbot
+```
+```
+cd ~/angkasaUbot UVLOOP_NO_EXTENSIONS=1 bash start.sh
+```
+```
+CTRL + A LALU D
 ```
 
-
-PENTING !!!!!
-KALAU ADA EROR SEMACAM UGLIFY = PERGI KE CHATGPT TANYA CARA INSATLL UGLIFY NANTI AMBBIL COMMANDNYA BIASANYA NPM INSATLL UGLIFY 
-TERUS SETELAHNYA RUN ULANG PYTHON3 -M PYROUBOT YANG DI ATAS
+PENTING!!!
+GUNAKAN UBOT DENGAN BIJAK
+@angkasanyabobo
